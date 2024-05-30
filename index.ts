@@ -23,10 +23,6 @@ app.get('/test4', (req, res) => {
     res.send('Hi Test4')
 })
 
-app.get('/test5', (req, res) => {
-    res.send('Hi Test5')
-})
-
 app.listen(port, () => {
     console.log('Start : port = ', port)
 })
